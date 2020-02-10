@@ -1,0 +1,183 @@
+{
+  "contractName": "HelloWorld",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/nicol/desktop/truffle-setup/Truffle_univ/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/nicol/desktop/truffle-setup/Truffle_univ/contracts/HelloWorld.sol\":{\"keccak256\":\"0x774929c04cf115693734645ad0729a7d658365aa5dd9b4d7d2041f203e5e7b8d\",\"urls\":[\"bzz-raw://c7408e584a83ca2eaf95277e674695659bc84ed048c9a57f1e19a279f2a1729d\",\"dweb:/ipfs/QmaKZi7sLKzsmSjawvSYSLfU1qSBYpmz38cJFtYxz3pXhC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158201f59104aaa5cba3bd4da8d9fb50e6a5fa5b3d333d20186f6029afeb60f6ec7a564736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158201f59104aaa5cba3bd4da8d9fb50e6a5fa5b3d333d20186f6029afeb60f6ec7a564736f6c63430005100032",
+  "sourceMap": "35:52:0:-;;;59:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;59:26:0;35:52;;;;;;",
+  "deployedSourceMap": "35:52:0:-;;;;;",
+  "source": "pragma solidity >= 0.5.0 < 0.7.0;\n\ncontract HelloWorld {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\nicol\\desktop\\truffle-setup\\Truffle_univ\\contracts\\HelloWorld.sol",
+  "ast": {
+    "absolutePath": "/C/Users/nicol/desktop/truffle-setup/Truffle_univ/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "80:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "70:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "80:0:0"
+            },
+            "scope": 6,
+            "src": "59:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "35:52:0"
+      }
+    ],
+    "src": "0:88:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/nicol/desktop/truffle-setup/Truffle_univ/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "80:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "70:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "80:0:0"
+            },
+            "scope": 6,
+            "src": "59:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "35:52:0"
+      }
+    ],
+    "src": "0:88:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-02-10T19:56:51.304Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
